@@ -4,3 +4,4 @@ def capitalize(value: str) -> str:
 
 if __name__ == '__main__':
 	assert capitalize('abc') == 'Abc'
+	assert capitalize('') == ''
