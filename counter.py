@@ -1,7 +1,8 @@
 from collections import defaultdict
+from typing import Any
 
 
-def count_elements(elements: list[int]) -> dict[int, int]:
+def count_elements(elements: list[Any]) -> dict[Any, int]:
 	counter = defaultdict(int)
 	for element in elements:
 		counter[element] += 1
