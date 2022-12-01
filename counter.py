@@ -6,6 +6,7 @@ def count_elements(elements: list[Any]) -> dict[Any, int]:
 	counter = defaultdict(int)
 	for element in elements:
 		counter[element] += 1
+
 	return dict(counter)
 
 
